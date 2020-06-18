@@ -1,0 +1,120 @@
+/***** BASE STYLES *****/
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #000000;
+}
+/***** GRID *****/
+
+.full-width {
+    width: 1240px;
+    margin: 20px auto;
+    padding-left: 20px;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/***** HEADER *****/
+
+header h1 {
+    font-size: 30px;
+    line-height: 23px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+header h1 span {
+    color: #77a466;
+}
+nav ul li {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: #77a466;
+    line-height: 23px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+header img#hero-image {
+      border-top: 3px solid #77a466;
+      border-bottom: 3px solid #77a466;
+}
+
+/***** ABOUT *****/
+
+#about h2 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 23px;
+      text-transform: uppercase;
+      color: #77a466;
+      padding-top: 10px;
+}
+#about p {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 16px;
+      font-weight: normal;
+      line-height: 1.5;
+      padding-bottom: 10px;
+}
+
+/***** FEED *****/
+
+#feed h3 {
+      font-size: 12px;
+      line-height: 25px;
+      text-transform: uppercase;
+}
+#feed ul {
+      font-size: 16px;
+      line-height: 2.4;
+      color: #77a466;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+}
+#featured-review h3, #contact h3 {
+      padding-left: 25px;
+}
+#featured-review p, #contact p {
+      font-size: 16px;
+      line-height: 1.5;
+      padding: 0 30px 20px 25px;
+}
+#featured-review.third-width, #contact.third-width {
+      border-left: 1px solid #dedbdc;
+}
+#daily-specials.third-width,#featured-review.third-width, #contact.third-width {
+      height: 210px;
+      border-bottom: 1px solid #dedbdc;
+      padding-top: 10px;
+      padding-bottom: 10px;
+}
+
+/***** FOOTER *****/
+
+#footer h4 {
+      font-size: 16px;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin: 0 auto;
+      clear: both;
+      text-align: center;
+}
+#footer span {
+      font-family: 'Galada', sans-serif;
+      color: #77a466;
+      text-transform: lowercase;
+}
+#footer {
+      border-top: 1px solid #dedbdc;
+      padding-top: 250px;
+      padding-bottom: 25px;
+}
